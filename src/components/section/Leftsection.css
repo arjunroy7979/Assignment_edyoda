@@ -116,3 +116,39 @@
 .pointer_span {
     color: #0096FF;
 }
+
+/* .......Tablet view...... */
+
+@media only screen and (max-width:831px){
+    .side_section_left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 25px;
+        gap: 10px;
+        position: absolute;
+        left: 140px;
+        top: 36px;
+    }
+}
+/* ...Mobile view.. */
+@media only screen and (max-width:562px){
+    .side_section_left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        position: absolute;
+        left: 20px;
+        top: 5rem;
+    }
+    .pointer{
+        width: 28rem;
+        gap: 10px;
+        position: relative;
+        top: 4rem;
+    }
+    .header{
+        width: 28rem;
+    }
+}

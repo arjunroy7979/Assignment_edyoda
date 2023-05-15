@@ -368,3 +368,100 @@
 .limited_offer p img {
     height: 0.9rem;
 }
+
+@media only screen and (max-width:831px){
+    .side_section_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        width: 530px;
+        right: 160px;
+        top: 39rem;
+        background-color: #fff;
+        padding: 2%;
+        border-radius: 6px;
+    }
+}
+/* ...Mobile view.. */
+@media only screen and (max-width:562px){
+    .side_section_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        position: absolute;
+        width: 400px;
+        top: 46rem;
+        background-color: #fff;
+        padding: 2%;
+        left: 20px;
+        border-radius: 6px;
+    }
+    .progress_bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        gap: 40px;
+        width: 125px;
+        margin-left: 120px;
+        height: 5%;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .input_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 125.5px;
+        height: 308px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .subscription1_1 {
+        width: 24rem;
+    }
+    .subscription1_2 {
+        width: 24rem;
+    }
+    .subscription1_3 {
+        width: 24rem;
+    }
+    .offer_detail{
+        width: 24rem;
+    }
+    .offer_detail_1{
+        width: 24rem;
+    }
+    .offer_detail_1 .p1{
+        right: 2.8rem;
+    }
+    .offer_detal_2{
+        width: 24rem;
+    }
+    .offer_detal_3{
+        width: 21rem;
+    }
+    .offer_detal_3 p span{
+        width: 10rem;
+    }
+    .proceed_to_pay{
+        width: 140px;   
+    }
+    .cancel{
+        width: 140px;
+    }
+    .button_for_pay{
+        width: 24rem;
+    }
+}
