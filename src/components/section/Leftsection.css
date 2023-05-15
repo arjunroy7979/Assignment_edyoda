@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side_section_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    gap: 20px;
+    position: absolute;
+    left: 120px;
+    top: 72px;
+}
+
+.header {
+    color: #fff;
+    gap: 8px;
+    width: 600px;
+    height: 148px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.price {
+    font-size: 40px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#rect {
+    position: absolute;
+    right: 11px;
+    width: 7.5rem;
+    top: 1.6rem;
+}
+
+.price2 {
+    color: #0096FF;
+}
+
+.header_span {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.detail {
+    color: #fff;
+}
+
+.pointer {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 70px;
+    width: 600px;
+    height: 64px;
+    flex: none;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.pointer1 {
+    order: 1;
+}
+
+.pointer img {
+    width: 60px;
+    height: 60px;
+}
+
+.pointer2 {
+    order: 2;
+}
+
+.pointer2 img {
+    width: 68px;
+    height: 68px;
+}
+
+.pointer3 {
+    order: 3;
+}
+
+.pointer3 img {
+    width: 68px;
+    height: 68px;
+}
+
+.pointer4 {
+    order: 4;
+}
+
+.pointer4 img {
+    width: 68px;
+    height: 68px;
+}
+
+.pointer5 {
+    order: 5;
+}
+
+.pointer5 img {
+    width: 68px;
+    height: 68px;
+}
+
+.pointer p {
+    font-size: 25px;
+}
+
+.pointer_span {
+    color: #0096FF;
+}

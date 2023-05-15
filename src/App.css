@@ -1,0 +1,8 @@
+body {
+  /* background-image: url('./components/images/Back\ Ground.png'); */
+  background-size: cover;
+  background:linear-gradient(120deg,#535353,#3C4852);
+  height: 100%;
+  left: 0px;
+  top: 2px;
+}
