@@ -74,7 +74,7 @@ const Rightsection = () => {
                     <div className='offer_detal_2'>
                         <div className='limited_offer'>
                             <h4>Limited time offer</h4>
-                            <p><img src={Vector} alt='vector-img' /> offer valid detail 25th march 2023</p>
+                            <p><img src={Vector} alt='vector-img' /> offer valid detail 25th may 2023</p>
                         </div>
                         <p>-&#8377;18,401 </p>
                     </div>
